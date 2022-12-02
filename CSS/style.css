@@ -1,0 +1,133 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+.container1 {
+    width: 100%;
+    height: 100vh;
+    float: left;
+    background: url(../images/558731-joker-wallpaper.jpeg);
+    background-size: cover;
+    position: relative;
+    opacity: 1;
+}
+.container1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.5;
+}
+.logo img {
+    width: 180px;
+}
+.logo {
+    margin-left: 30px;
+    position: relative;
+    bottom: 40px;
+}
+.list {
+    float: right;
+    position: relative;
+    bottom: 180px;
+    margin-right: 80px;
+}
+.list ul li {
+    display: inline-block;
+    color: white;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.sign {
+    padding-left: 40px;
+}
+.name h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    margin-top: 240px;
+    letter-spacing: 10px;
+    position: relative;
+}
+.list2 ul li {
+    display: inline-block;
+    color: white;
+    position: relative;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.watch span {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    position: relative;
+}
+.watch {
+    margin-left: 50px;
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+.view {
+    margin-left: 50px;
+    width: 130px;
+    height: 40px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    left: 170px;
+    bottom: 40px;
+    cursor: pointer;
+    border: .2px solid red;
+}
+.view span {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    position: relative;
+}
+.add span {
+   color: white; 
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 13px;
+   position: relative;
+   left: 370px;
+   bottom: 72px;
+   cursor: pointer;
+}
+.rating {
+    position: relative;
+    bottom: 80px;
+    cursor: pointer;
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    border: .2px solid white;
+    float: right;
+    margin-right: 40px;
+}
+.rating span {
+    color: white;
+    font-size: 11px;
+    font-family: Californian FB;
+    position: relative;
+    left: 5px;
+}
+.rating img {
+    width: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
