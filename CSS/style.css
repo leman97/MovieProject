@@ -172,7 +172,7 @@ body {
 .box1 {
     width: 20%;
     height: 350px;
-    background-color: aqua;
+    background-color: white;
     float: left;
     margin: 20px;
     cursor: pointer;
@@ -181,6 +181,7 @@ body {
 .box1 img {
     width: 100%;
     height: 310px;
+    object-fit: cover;
 }
 .box1 .name {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -196,7 +197,7 @@ body {
     font-size: 11px;
     color: grey;
 }
-.imdb{
+.box1 .imdb{
     float: right;
     margin-right: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -209,5 +210,316 @@ body {
     transform: scale(1); 
 }
 .box1:hover {
+    transform: scale(1.1);
+}
+.box2 {
+    width: 20%;
+    height: 350px;
+    background-color: white;
+    float: left;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.box2 img {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+}
+.box2 .name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.box2 .janr {
+    position: relative;
+    top: 15px;
+    right: 110px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    color: grey;
+}
+.box2 .imdb{
+    float: right;
+    margin-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: red;
+    border: .2px solid red;
+    padding: 5px 7px;
+    position: relative;
+    bottom: 15px; 
+    transform: scale(1); 
+}
+.box2:hover {
+    transform: scale(1.1);
+}
+.box3 {
+    width: 20%;
+    height: 350px;
+    background-color: white;
+    float: left;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.box3 img {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+}
+.box3 .name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.box3 .janr {
+    position: relative;
+    top: 15px;
+    right: 130px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    color: grey;
+}
+.box3 .imdb{
+    float: right;
+    margin-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: red;
+    border: .2px solid red;
+    padding: 5px 7px;
+    position: relative;
+    bottom: 15px; 
+    transform: scale(1); 
+}
+.box3:hover {
+    transform: scale(1.1);
+}
+.box4 {
+    width: 20%;
+    height: 350px;
+    background-color: white;
+    float: left;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    bottom: 25px;
+}
+.box4 img {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+}
+.box4 .name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.box4 .janr {
+    position: relative;
+    top: 15px;
+    right: 105px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    color: grey;
+}
+.box4 .imdb{
+    float: right;
+    margin-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: red;
+    border: .2px solid red;
+    padding: 5px 7px;
+    position: relative;
+    top: 3px; 
+    transform: scale(1); 
+}
+.box4:hover {
+    transform: scale(1.1);
+}
+.box5 {
+    width: 20%;
+    height: 350px;
+    background-color: white;
+    float: left;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    bottom: 25px;
+}
+.box5 img {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+}
+.box5 .name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.box5 .janr {
+    position: relative;
+    top: 15px;
+    right: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    color: grey;
+}
+.box5 .imdb{
+    float: right;
+    margin-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: red;
+    border: .2px solid red;
+    padding: 5px 7px;
+    position: relative;
+    top: 3px; 
+    transform: scale(1); 
+}
+.box5:hover {
+    transform: scale(1.1);
+}
+.box6 {
+    width: 20%;
+    height: 350px;
+    background-color: white;
+    float: left;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    bottom: 25px;
+}
+.box6 img {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+}
+.box6 .name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.box6 .janr {
+    position: relative;
+    top: 15px;
+    right: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    color: grey;
+}
+.box6 .imdb{
+    float: right;
+    margin-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: red;
+    border: .2px solid red;
+    padding: 5px 7px;
+    position: relative;
+    top: 3px; 
+    transform: scale(1); 
+}
+.box6:hover {
+    transform: scale(1.1);
+}
+.box7 {
+    width: 20%;
+    height: 350px;
+    background-color: white;
+    float: left;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    bottom: 25px;
+}
+.box7 img {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+}
+.box7 .name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.box7 .janr {
+    position: relative;
+    top: 15px;
+    right: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    color: grey;
+}
+.box7 .imdb{
+    float: right;
+    margin-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: red;
+    border: .2px solid red;
+    padding: 5px 7px;
+    position: relative;
+    top: 3px; 
+    transform: scale(1); 
+}
+.box7:hover {
+    transform: scale(1.1);
+}
+.box8 {
+    width: 20%;
+    height: 350px;
+    background-color: white;
+    float: left;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    bottom: 25px;
+}
+.box8 img {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+}
+.box8 .name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.box8 .janr {
+    position: relative;
+    top: 15px;
+    right: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    color: grey;
+}
+.box8 .imdb{
+    float: right;
+    margin-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: red;
+    border: .2px solid red;
+    padding: 5px 7px;
+    position: relative;
+    top: 3px; 
+    transform: scale(1); 
+}
+.box8:hover {
     transform: scale(1.1);
 }
